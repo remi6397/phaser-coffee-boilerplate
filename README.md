@@ -60,7 +60,7 @@ If you modify the contents of other files, please manually restart the server.
 
 ### Modifying `gulpfile.js`
 
-See [gulpfile.md](https://github.com/remi6397/phaser-remi6397-boilerplate/blob/master/gulpfile.md)
+See [gulpfile.md](https://github.com/remi6397/phaser-coffescript-boilerplate/blob/master/gulpfile.md)
 
 ## Changelog (1.0.2)
 
@@ -69,7 +69,7 @@ See [gulpfile.md](https://github.com/remi6397/phaser-remi6397-boilerplate/blob/m
 
 ## Contributing
 
-Please report any bugs or add requests on [Github Issues](https://github.com/remi6397/phaser-remi6397-boilerplate/issues).
+Please report any bugs or add requests on [Github Issues](https://github.com/remi6397/phaser-coffescript-boilerplate/issues).
 
 ## About tis document
 
