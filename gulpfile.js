@@ -8,7 +8,7 @@ var buffer = require('gulp-buffer');
 var uglify = require('gulp-uglify');
 var gulpif = require('gulp-if');
 var exorcist = require('exorcist');
-var babelify = require('babelify');
+var coffeeify = require('coffeeify');
 var browserify = require('browserify');
 var browserSync = require('browser-sync');
 
@@ -20,7 +20,7 @@ var BUILD_PATH = './build';
 var SCRIPTS_PATH = BUILD_PATH + '/scripts';
 var SOURCE_PATH = './src';
 var STATIC_PATH = './static';
-var ENTRY_FILE = SOURCE_PATH + '/index.js';
+var ENTRY_FILE = SOURCE_PATH + '/index.coffee';
 var OUTPUT_FILE = 'game.js';
 
 var keepFiles = false;
@@ -106,16 +106,9 @@ function build() {
     return browserify({
             paths: [path.join(__dirname, 'src')],
             entries: ENTRY_FILE,
-            debug: true,
-            transform: [
-                [
-                    babelify, {
-                        presets: ["es2015"]
-                    }
-                ]
-            ]
+            debug: true
         })
-        .transform(babelify)
+        .transform(coffeeify)
         .bundle().on('error', function(error) {
             gutil.log(gutil.colors.red('[Build Error]', error.message));
             this.emit('end');
@@ -144,7 +137,7 @@ function serve() {
     browserSync(options);
     
     // Watches for changes in files inside the './src' folder.
-    gulp.watch(SOURCE_PATH + '/**/*.js', ['watch-js']);
+    gulp.watch(SOURCE_PATH + '/**/*.{js,coffee}', ['watch-js']);
     
     // Watches for changes in files inside the './static' folder. Also sets 'keepFiles' to true (see cleanBuild()).
     gulp.watch(STATIC_PATH + '/**/*', ['watch-static']).on('change', function() {

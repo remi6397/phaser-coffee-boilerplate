@@ -1,4 +1,4 @@
-# Modifying `gulpfile.js` :raised_hands:
+# Modifying `gulpfile.js`
 
 There are seven variables that you can modify in order to easily adapt the behaviour
 of the Gulp file to your own needs.
@@ -35,9 +35,9 @@ Default: `./static`
 
 ***
 
-**`ENTRY_FILE`** the main source file, by convention named `index.js`. 
+**`ENTRY_FILE`** the main source file, by convention named `index.coffee`. 
 
-Default: `SOURCE_PATH + '/index.js'`
+Default: `SOURCE_PATH + '/index.coffee'`
 
 ***
 
