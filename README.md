@@ -73,7 +73,7 @@ Please report any bugs or add requests on [Github Issues](https://github.com/rem
 
 ## About tis document
 
-I know that this readme is totally ''borrowed'' from belohlavek's original readme, but wy modify something, that actually is very good? 
+I know that this readme is totally ''borrowed'' from belohlavek's original readme, but why change something, that actually is very good? 
 
 ## License
 
