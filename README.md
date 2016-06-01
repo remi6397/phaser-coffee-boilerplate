@@ -71,7 +71,7 @@ See [gulpfile.md](https://github.com/remi6397/phaser-coffescript-boilerplate/blo
 
 Please report any bugs or add requests on [Github Issues](https://github.com/remi6397/phaser-coffescript-boilerplate/issues).
 
-## About tis document
+## About this document
 
 I know that this readme is totally ''borrowed'' from belohlavek's original readme, but why change something, that actually is very good? 
 
