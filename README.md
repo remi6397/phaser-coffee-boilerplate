@@ -8,15 +8,11 @@ a basic example and *some* kind of folder structure.
 
 ## Features
 
-[x] Heavily commented, flexible Gulpfile (that means it uses [Gulp](http://gulpjs.com/)).
-
-[x] [Browserify](https://github.com/substack/node-browserify) + [Coffeeify](https://github.com/jnordberg/coffeeify)
-
-[x] [Browsersync](http://www.browsersync.io/) = Livereload + Mobile debugging with [Weinre](http://people.apache.org/~pmuellr/weinre-docs/latest/).
-
-[x] Example: Extending Phaser & modular development.
-
-[x] Production ([UglifyJS](https://github.com/mishoo/UglifyJS2)) and Development ([Sourcemaps](https://developer.chrome.com/devtools/docs/javascript-debugging#source-maps)) builds.
+[+] Heavily commented, flexible Gulpfile (that means it uses [Gulp](http://gulpjs.com/)).
+[+] [Browserify](https://github.com/substack/node-browserify) + [Coffeeify](https://github.com/jnordberg/coffeeify)
+[+] [Browsersync](http://www.browsersync.io/) = Livereload + Mobile debugging with [Weinre](http://people.apache.org/~pmuellr/weinre-docs/latest/).
+[+] Example: Extending Phaser & modular development.
+[+] Production ([UglifyJS](https://github.com/mishoo/UglifyJS2)) and Development ([Sourcemaps](https://developer.chrome.com/devtools/docs/javascript-debugging#source-maps)) builds.
 
 ## Why CoffeeScript?
 
